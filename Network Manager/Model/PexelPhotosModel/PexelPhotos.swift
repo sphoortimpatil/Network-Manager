@@ -2,7 +2,7 @@
 //  PexelPhotos.swift
 //  Network Manager
 //
-//  Created by CrewPlace Enterprise on 20/10/24.
+//  Created by Sphoorti Patil on 20/10/24.
 //
 
 import Foundation
@@ -18,7 +18,7 @@ class PexelPhotos: APIRequest {
         self.searchParameter = searchParameter
         self.url = "https://api.pexels.com/v1/search"
         self.httpMethod = .get
-        self.headers = ["Authorization": "JAE9pM4hfeoI3B6cXTfVFtpSkvFq3tDNdA9g0EURAvEpbc1QUG6XHR7R"]
+        self.headers = ["Authorization": Constants.PexelApi.headerKeyValue]
         self.parameters = ["per_page": 20, "query": searchParameter]
     }
 }
