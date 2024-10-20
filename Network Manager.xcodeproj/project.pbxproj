@@ -101,8 +101,8 @@
 				F3F26D842CC3F5C10050DD09 /* APIRequestError.swift */,
 				F3F26D862CC3FDA30050DD09 /* APIRequest.swift */,
 				F3F26D882CC3FE170050DD09 /* HTTPRequestMethod.swift */,
-				F3F26D822CC3F38A0050DD09 /* NetworkManager.swift */,
 				F3F26D8B2CC44EFE0050DD09 /* APIResponseValidator.swift */,
+				F3F26D822CC3F38A0050DD09 /* NetworkManager.swift */,
 			);
 			path = "Network Manager";
 			sourceTree = "<group>";

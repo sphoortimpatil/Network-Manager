@@ -14,12 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        
         view.backgroundColor = .white
-        fetchDataUsingNetworkMnager()
+        fetchDataUsingNetworkManager()
     }
     
-    private func fetchDataUsingNetworkMnager() {
+    private func fetchDataUsingNetworkManager() {
         pexelApiVM.fetchPexelPhotos(searchParameter: "restaurant outdoor decor") {
-        (result: Result<PlacePhotosList, APIRequestError>) in
+        result in
             switch result {
             case .success(let apiData):
                 print(apiData)
